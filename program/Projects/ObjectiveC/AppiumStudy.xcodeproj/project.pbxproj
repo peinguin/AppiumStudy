@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BA82BD6183CF55D00C8DD39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA82BD5183CF55D00C8DD39 /* Foundation.framework */; };
+		0BA82BD8183CF55D00C8DD39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA82BD7183CF55D00C8DD39 /* CoreGraphics.framework */; };
+		0BA82BDA183CF55D00C8DD39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA82BD9183CF55D00C8DD39 /* UIKit.framework */; };
+		0BA82BE0183CF55D00C8DD39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BA82BDE183CF55D00C8DD39 /* InfoPlist.strings */; };
+		0BA82BE2183CF55D00C8DD39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA82BE1183CF55D00C8DD39 /* main.m */; };
+		0BA82BE6183CF55D00C8DD39 /* AppiumStudyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA82BE5183CF55D00C8DD39 /* AppiumStudyAppDelegate.m */; };
+		0BA82BE8183CF55D00C8DD39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BA82BE7183CF55D00C8DD39 /* Images.xcassets */; };
+		0BA82BEF183CF55D00C8DD39 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA82BEE183CF55D00C8DD39 /* XCTest.framework */; };
+		0BA82BF0183CF55D00C8DD39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA82BD5183CF55D00C8DD39 /* Foundation.framework */; };
+		0BA82BF1183CF55D00C8DD39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA82BD9183CF55D00C8DD39 /* UIKit.framework */; };
+		0BA82BF9183CF55D00C8DD39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BA82BF7183CF55D00C8DD39 /* InfoPlist.strings */; };
+		0BA82BFB183CF55D00C8DD39 /* AppiumStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA82BFA183CF55D00C8DD39 /* AppiumStudyTests.m */; };
+		0BA82C07183CF5AC00C8DD39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BA82C06183CF5AC00C8DD39 /* Main.storyboard */; };
+		0BA82C0A183D011B00C8DD39 /* ShowAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA82C09183D011B00C8DD39 /* ShowAlertViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BA82BF2183CF55D00C8DD39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BA82BCA183CF55D00C8DD39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BA82BD1183CF55D00C8DD39;
+			remoteInfo = AppiumStudy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BA82BD2183CF55D00C8DD39 /* AppiumStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppiumStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BA82BD5183CF55D00C8DD39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0BA82BD7183CF55D00C8DD39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0BA82BD9183CF55D00C8DD39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0BA82BDD183CF55D00C8DD39 /* AppiumStudy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppiumStudy-Info.plist"; sourceTree = "<group>"; };
+		0BA82BDF183CF55D00C8DD39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0BA82BE1183CF55D00C8DD39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BA82BE3183CF55D00C8DD39 /* AppiumStudy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppiumStudy-Prefix.pch"; sourceTree = "<group>"; };
+		0BA82BE4183CF55D00C8DD39 /* AppiumStudyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppiumStudyAppDelegate.h; sourceTree = "<group>"; };
+		0BA82BE5183CF55D00C8DD39 /* AppiumStudyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppiumStudyAppDelegate.m; sourceTree = "<group>"; };
+		0BA82BE7183CF55D00C8DD39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0BA82BED183CF55D00C8DD39 /* AppiumStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppiumStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BA82BEE183CF55D00C8DD39 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0BA82BF6183CF55D00C8DD39 /* AppiumStudyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppiumStudyTests-Info.plist"; sourceTree = "<group>"; };
+		0BA82BF8183CF55D00C8DD39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0BA82BFA183CF55D00C8DD39 /* AppiumStudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppiumStudyTests.m; sourceTree = "<group>"; };
+		0BA82C06183CF5AC00C8DD39 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0BA82C08183D011B00C8DD39 /* ShowAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowAlertViewController.h; sourceTree = "<group>"; };
+		0BA82C09183D011B00C8DD39 /* ShowAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowAlertViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BA82BCF183CF55D00C8DD39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA82BD8183CF55D00C8DD39 /* CoreGraphics.framework in Frameworks */,
+				0BA82BDA183CF55D00C8DD39 /* UIKit.framework in Frameworks */,
+				0BA82BD6183CF55D00C8DD39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BA82BEA183CF55D00C8DD39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA82BEF183CF55D00C8DD39 /* XCTest.framework in Frameworks */,
+				0BA82BF1183CF55D00C8DD39 /* UIKit.framework in Frameworks */,
+				0BA82BF0183CF55D00C8DD39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BA82BC9183CF55D00C8DD39 = {
+			isa = PBXGroup;
+			children = (
+				0BA82BDB183CF55D00C8DD39 /* AppiumStudy */,
+				0BA82BF4183CF55D00C8DD39 /* AppiumStudyTests */,
+				0BA82BD4183CF55D00C8DD39 /* Frameworks */,
+				0BA82BD3183CF55D00C8DD39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BA82BD3183CF55D00C8DD39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BA82BD2183CF55D00C8DD39 /* AppiumStudy.app */,
+				0BA82BED183CF55D00C8DD39 /* AppiumStudyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BA82BD4183CF55D00C8DD39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BA82BD5183CF55D00C8DD39 /* Foundation.framework */,
+				0BA82BD7183CF55D00C8DD39 /* CoreGraphics.framework */,
+				0BA82BD9183CF55D00C8DD39 /* UIKit.framework */,
+				0BA82BEE183CF55D00C8DD39 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0BA82BDB183CF55D00C8DD39 /* AppiumStudy */ = {
+			isa = PBXGroup;
+			children = (
+				0BA82BE4183CF55D00C8DD39 /* AppiumStudyAppDelegate.h */,
+				0BA82BE5183CF55D00C8DD39 /* AppiumStudyAppDelegate.m */,
+				0BA82BE7183CF55D00C8DD39 /* Images.xcassets */,
+				0BA82BDC183CF55D00C8DD39 /* Supporting Files */,
+				0BA82C06183CF5AC00C8DD39 /* Main.storyboard */,
+				0BA82C08183D011B00C8DD39 /* ShowAlertViewController.h */,
+				0BA82C09183D011B00C8DD39 /* ShowAlertViewController.m */,
+			);
+			path = AppiumStudy;
+			sourceTree = "<group>";
+		};
+		0BA82BDC183CF55D00C8DD39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BA82BDD183CF55D00C8DD39 /* AppiumStudy-Info.plist */,
+				0BA82BDE183CF55D00C8DD39 /* InfoPlist.strings */,
+				0BA82BE1183CF55D00C8DD39 /* main.m */,
+				0BA82BE3183CF55D00C8DD39 /* AppiumStudy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BA82BF4183CF55D00C8DD39 /* AppiumStudyTests */ = {
+			isa = PBXGroup;
+			children = (
+				0BA82BFA183CF55D00C8DD39 /* AppiumStudyTests.m */,
+				0BA82BF5183CF55D00C8DD39 /* Supporting Files */,
+			);
+			path = AppiumStudyTests;
+			sourceTree = "<group>";
+		};
+		0BA82BF5183CF55D00C8DD39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BA82BF6183CF55D00C8DD39 /* AppiumStudyTests-Info.plist */,
+				0BA82BF7183CF55D00C8DD39 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BA82BD1183CF55D00C8DD39 /* AppiumStudy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BA82BFE183CF55D00C8DD39 /* Build configuration list for PBXNativeTarget "AppiumStudy" */;
+			buildPhases = (
+				0BA82BCE183CF55D00C8DD39 /* Sources */,
+				0BA82BCF183CF55D00C8DD39 /* Frameworks */,
+				0BA82BD0183CF55D00C8DD39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppiumStudy;
+			productName = AppiumStudy;
+			productReference = 0BA82BD2183CF55D00C8DD39 /* AppiumStudy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BA82BEC183CF55D00C8DD39 /* AppiumStudyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BA82C01183CF55D00C8DD39 /* Build configuration list for PBXNativeTarget "AppiumStudyTests" */;
+			buildPhases = (
+				0BA82BE9183CF55D00C8DD39 /* Sources */,
+				0BA82BEA183CF55D00C8DD39 /* Frameworks */,
+				0BA82BEB183CF55D00C8DD39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BA82BF3183CF55D00C8DD39 /* PBXTargetDependency */,
+			);
+			name = AppiumStudyTests;
+			productName = AppiumStudyTests;
+			productReference = 0BA82BED183CF55D00C8DD39 /* AppiumStudyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BA82BCA183CF55D00C8DD39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AppiumStudy;
+				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					0BA82BEC183CF55D00C8DD39 = {
+						TestTargetID = 0BA82BD1183CF55D00C8DD39;
+					};
+				};
+			};
+			buildConfigurationList = 0BA82BCD183CF55D00C8DD39 /* Build configuration list for PBXProject "AppiumStudy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0BA82BC9183CF55D00C8DD39;
+			productRefGroup = 0BA82BD3183CF55D00C8DD39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BA82BD1183CF55D00C8DD39 /* AppiumStudy */,
+				0BA82BEC183CF55D00C8DD39 /* AppiumStudyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BA82BD0183CF55D00C8DD39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA82C07183CF5AC00C8DD39 /* Main.storyboard in Resources */,
+				0BA82BE0183CF55D00C8DD39 /* InfoPlist.strings in Resources */,
+				0BA82BE8183CF55D00C8DD39 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BA82BEB183CF55D00C8DD39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA82BF9183CF55D00C8DD39 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BA82BCE183CF55D00C8DD39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA82BE6183CF55D00C8DD39 /* AppiumStudyAppDelegate.m in Sources */,
+				0BA82BE2183CF55D00C8DD39 /* main.m in Sources */,
+				0BA82C0A183D011B00C8DD39 /* ShowAlertViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BA82BE9183CF55D00C8DD39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA82BFB183CF55D00C8DD39 /* AppiumStudyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BA82BF3183CF55D00C8DD39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BA82BD1183CF55D00C8DD39 /* AppiumStudy */;
+			targetProxy = 0BA82BF2183CF55D00C8DD39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0BA82BDE183CF55D00C8DD39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BA82BDF183CF55D00C8DD39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0BA82BF7183CF55D00C8DD39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BA82BF8183CF55D00C8DD39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BA82BFC183CF55D00C8DD39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BA82BFD183CF55D00C8DD39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BA82BFF183CF55D00C8DD39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppiumStudy/AppiumStudy-Prefix.pch";
+				INFOPLIST_FILE = "AppiumStudy/AppiumStudy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0BA82C00183CF55D00C8DD39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppiumStudy/AppiumStudy-Prefix.pch";
+				INFOPLIST_FILE = "AppiumStudy/AppiumStudy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0BA82C02183CF55D00C8DD39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AppiumStudy.app/AppiumStudy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppiumStudy/AppiumStudy-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AppiumStudyTests/AppiumStudyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0BA82C03183CF55D00C8DD39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AppiumStudy.app/AppiumStudy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppiumStudy/AppiumStudy-Prefix.pch";
+				INFOPLIST_FILE = "AppiumStudyTests/AppiumStudyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BA82BCD183CF55D00C8DD39 /* Build configuration list for PBXProject "AppiumStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BA82BFC183CF55D00C8DD39 /* Debug */,
+				0BA82BFD183CF55D00C8DD39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BA82BFE183CF55D00C8DD39 /* Build configuration list for PBXNativeTarget "AppiumStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BA82BFF183CF55D00C8DD39 /* Debug */,
+				0BA82C00183CF55D00C8DD39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0BA82C01183CF55D00C8DD39 /* Build configuration list for PBXNativeTarget "AppiumStudyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BA82C02183CF55D00C8DD39 /* Debug */,
+				0BA82C03183CF55D00C8DD39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BA82BCA183CF55D00C8DD39 /* Project object */;
+}
