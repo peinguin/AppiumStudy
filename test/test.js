@@ -1,6 +1,5 @@
 var wd = require("wd")
   , assert = require("assert")
-  , Q = require("q")
   , appURL = __dirname+'/../program/Apps/Titanium/AppiumStudy.app';
 
 // Instantiate a new browser session
